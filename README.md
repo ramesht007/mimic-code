@@ -14,11 +14,11 @@ The repository is organized as follows:
 * [benchmark](/benchmark) - Various speed tests for indices
 * [buildmimic](/buildmimic)\* - Scripts to build MIMIC-III in a relational database management system (RDMS), in particular [postgres](/buildmimic/postgres) is our RDMS of choice
 * [concepts](/concepts) - Useful views/summaries of the data in MIMIC-III, e.g. demographics, organ failure scores, severity of illness scores, durations of treatment, easier to analyze views, etc. The paper above describes these in detail, and a README in the subfolder lists concepts generated.
-* [notebooks](/notebooks) - A collection of R markdown and Jupyter notebooks which give examples of how to extract and analyze data
-* [notebooks/aline](/notebooks/aline) - An entire study reproduced in the MIMIC-III database - from cohort generation to hypothesis testing
+* [notebooks](/notebooks) - A collection of R markdown and Jupyter notebooks which give examples of how to extract and analyze data.
+* [notebooks/aline](/notebooks/aline) - An entire study reproduced in the MIMIC-III database - from cohort generation to hypothesis testing.
 * [notebooks/aline-aws](/notebooks/aline-aws) - As above, [launchable immediately on AWS](#launch-mimic-iii-in-aws)
 * [tests](/tests) - You should always have tests!
-* [tutorials](/tutorials) - Similar to the notebooks folder, but focuses on explaining concepts to new users
+* [tutorials](/tutorials) - Similar to the notebooks folder, but focuses on explaining concepts to new users.
 
 \* A Makefile build system has been created to facilitate the building of the MIMIC database, and optionally contributed views from the community. Please refer to the [Makefile guide](https://github.com/MIT-LCP/mimic-code/blob/master/Makefile.md) for more details.
 
@@ -41,7 +41,7 @@ To start this deployment, click the Launch Stack button.  On the first screen, t
 * [Bloatectomy](https://github.com/MIT-LCP/bloatectomy) ([paper](https://github.com/MIT-LCP/bloatectomy/blob/master/paper/paper.md)) - A python based package for removing duplicate text in clinical notes
 * [Medication categories](https://github.com/mghassem/medicationCategories) - Python script for extracting medications from free-text notes
 * [MIMIC Extract](https://github.com/MLforHealth/MIMIC_Extract) ([paper](https://doi.org/10.1145/3368555.3384469)) - A python based package for transforming MIMIC-III data into a machine learning friendly format
-* [FIDDLE](https://gitlab.eecs.umich.edu/mld3/FIDDLE) ([paper (PDF)](https://www.mlforhc.org/s/Sjoding-jete.pdf)) - A python based package for a FlexIble Data-Driven pipeLinE (FIDDLE), transforming structured EHR data into a machine learning friendly format
+* [FIDDLE](https://gitlab.eecs.umich.edu/mld3/FIDDLE) ([paper (PDF)](https://www.mlforhc.org/s/Sjoding-jete.pdf)) - A python based package for a FlexIble Data-Driven pipeLinE (FIDDLE), transforming structured EHR data into a machine learning friendly format.
 
 ## Acknowledgement
 
